@@ -176,6 +176,7 @@ main{
 	display: block;
 	width: 50%;
 	border-radius: 5px;
+	box-shadow: 25px 25px 50px #0000005e;
 }
 .attraction .attraction_description{
 	flex-basis: 50%;
@@ -188,4 +189,60 @@ main{
 .attraction .attraction_description p{
 	font-size: 1.2em;
 	margin-top: 30px;
+}
+
+
+
+/*-----------------------------footer-------------------------*/
+footer{
+	font-size: 1.3em;
+	padding: 30px 0;
+	text-align: center;
+	background: linear-gradient(50deg, #F0C27B, #4B1248);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+footer .links{
+	margin-top: 20px;
+}
+footer .links a{
+	color: rgb(65, 3, 108);
+	transition: 0.1s;
+}
+footer .links a:hover{
+	color: rgb(101, 44, 140);
+}
+
+
+
+
+/*--------------------------------media---------------------------*/
+@media(max-width: 1000px){
+	.sity, .attraction{
+		display: block;
+	}
+	.attraction{
+		padding: 20px 0;
+		border-top: 2px solid rgba(33, 56, 66, 0.0955529);
+	}
+	.attraction:first-child{
+		padding: 0 0 20px 0;
+		border: none;
+	}
+	.attraction img{
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+@media(max-width: 700px){
+	.wrapper{
+		width: 100%;
+	}
+	.nav_bar, .page_title, .about_sity{
+		padding: 0 20px;
+	}
+	.page_title{
+		width: 100%;
+		font-size: 1.1em
+	}
 }
