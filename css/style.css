@@ -182,6 +182,7 @@ main{
 	flex-basis: 50%;
 	padding: 20px;
 	color: #4d533c;
+	text-align: justify;
 }
 .attraction .attraction_description h3{
 	font-size: 1.5em;
