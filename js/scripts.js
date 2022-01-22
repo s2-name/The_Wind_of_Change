@@ -123,4 +123,17 @@ function SendRequest(r_method, r_path, r_args, r_handler){
 			}
 		});		
 	}
+
+
+	// ----------------footer links-----------------------------
+	let links = document.getElementById('links');
+	let source = document.getElementById('source');
+	document.getElementById('to_source').addEventListener('click', function(){
+		links.classList.add('hide');
+		source.classList.remove('hide');
+	});
+	document.getElementById('to_links').addEventListener('click', function(){
+		links.classList.remove('hide');
+		source.classList.add('hide');
+	});
 });

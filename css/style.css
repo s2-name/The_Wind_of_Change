@@ -219,15 +219,18 @@ footer{
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 }
-footer .links{
+footer .links, footer #source{
 	margin-top: 20px;
 }
-footer .links a{
+footer .links a, footer #source a{
 	color: rgb(65, 3, 108);
 	transition: 0.1s;
 }
-footer .links a:hover{
+footer .links a:hover, footer #source a:hover{
 	color: rgb(101, 44, 140);
+}
+.hide{
+	display: none;
 }
 
 
