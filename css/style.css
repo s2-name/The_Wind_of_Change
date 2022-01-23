@@ -79,7 +79,7 @@ header .wrapper{
 	padding: 10px;
 	background: #f0f0f0bd;
 	border-radius: 3px;
-	transform: translate(-25%, 100%);
+	transform: translate(-40%, 100%);
 	transition: 0.3s;
 	display: none;
 }
