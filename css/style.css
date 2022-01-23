@@ -129,6 +129,7 @@ main{
 .about_sity .discription{
 	font-size: 1.4em;
 	margin: 20px 0;
+	text-align: justify;
 }
 .feedback_sity{
 	display: flex;
