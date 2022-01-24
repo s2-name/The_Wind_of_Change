@@ -246,6 +246,9 @@ footer .links a:hover, footer #source a:hover{
 	.sity, .attraction{
 		display: block;
 	}
+	.about_sity{
+		margin-right: 0;
+	}
 	.attraction{
 		padding: 20px 0;
 		border-top: 2px solid rgba(33, 56, 66, 0.0955529);
